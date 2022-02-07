@@ -1,0 +1,338 @@
+[
+  {
+    "market": "BCH/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 12305,
+    "high": 12408
+  },
+  {
+    "market": "BNB/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": false,
+    "low": 14826.72,
+    "high": 14918.06
+  },
+  {
+    "market": "BTC/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 1385887,
+    "high": 1389445
+  },
+  {
+    "market": "DAI/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 27.1,
+    "high": 27.28
+  },
+  {
+    "market": "DASH/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": false,
+    "low": 4104,
+    "high": 4144
+  },
+  {
+    "market": "DOGE/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 5.15,
+    "high": 5.19
+  },
+  {
+    "market": "EOS/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 91.71,
+    "high": 92.53
+  },
+  {
+    "market": "ETH/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 110446,
+    "high": 110615
+  },
+  {
+    "market": "LINK/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 584.3,
+    "high": 593
+  },
+  {
+    "market": "LTC/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 4391,
+    "high": 4421
+  },
+  {
+    "market": "SHIB/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.001006,
+    "high": 0.001019
+  },
+  {
+    "market": "TRX/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 2.18,
+    "high": 2.2
+  },
+  {
+    "market": "UNI/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 477.89,
+    "high": 482.56
+  },
+  {
+    "market": "USDC/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 27.02,
+    "high": 27.2
+  },
+  {
+    "market": "USDT/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 27.15,
+    "high": 27.18
+  },
+  {
+    "market": "WAVES/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 430.35,
+    "high": 444.83
+  },
+  {
+    "market": "XEM/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 3.7,
+    "high": 3.76
+  },
+  {
+    "market": "XLM/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 7.93,
+    "high": 8
+  },
+  {
+    "market": "XRP/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 25.13,
+    "high": 25.25
+  },
+  {
+    "market": "ZEC/UAH",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 4517,
+    "high": 4574
+  },
+  {
+    "market": "ETH/BTC",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.079208,
+    "high": 0.081282
+  },
+  {
+    "market": "BNB/RUB",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 38001.45,
+    "high": 44898.04
+  },
+  {
+    "market": "BTC/RUB",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 3684089.49,
+    "high": 3786609.83
+  },
+  {
+    "market": "ETH/RUB",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 279000.04,
+    "high": 298994.15
+  },
+  {
+    "market": "USDT/RUB",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 73.19,
+    "high": 73.4
+  },
+  {
+    "market": "XRP/RUB",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 66.574,
+    "high": 70.216
+  },
+  {
+    "market": "BTC/USD",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 49338.23,
+    "high": 52998.99
+  },
+  {
+    "market": "USDT/USD",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 1.017,
+    "high": 1.027
+  },
+  {
+    "market": "BTC/USDC",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 49702.69,
+    "high": 52252.43
+  },
+  {
+    "market": "USDT/USDC",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 1.003,
+    "high": 1.024
+  },
+  {
+    "market": "BCH/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 449.92,
+    "high": 474.06
+  },
+  {
+    "market": "BTC/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 50734.71,
+    "high": 51029.18
+  },
+  {
+    "market": "DASH/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 143.01,
+    "high": 153.4
+  },
+  {
+    "market": "DOGE/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.18918,
+    "high": 0.19242
+  },
+  {
+    "market": "ETH/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 4031.72,
+    "high": 4068.16
+  },
+  {
+    "market": "EVER/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.277,
+    "high": 0.279
+  },
+  {
+    "market": "KUN/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 21.05,
+    "high": 25.8
+  },
+  {
+    "market": "LTC/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 161.61,
+    "high": 163.21
+  },
+  {
+    "market": "SHIB/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.00003555,
+    "high": 0.0000374
+  },
+  {
+    "market": "TRX/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.0803,
+    "high": 0.0809
+  },
+  {
+    "market": "XLM/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.284,
+    "high": 0.2959
+  },
+  {
+    "market": "XRP/USDT",
+    "created": 1640699219486,
+    "updated": 1640699219486,
+    "active": true,
+    "low": 0.9192,
+    "high": 0.9314
+  }
+]

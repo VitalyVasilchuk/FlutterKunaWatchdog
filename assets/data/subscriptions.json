@@ -1,0 +1,20 @@
+[
+  {
+    "title": "week without ads",
+    "description": "disabling the display of advertising banners for a period of one week!",
+    "price": "9,99 грн.",
+    "image": "assets/images/sku_1_week.png"
+  },
+  {
+    "title": "month without ads",
+    "description": "disabling the display of advertising banners for a period of one month!",
+    "price": "39,99 грн.",
+    "image": "assets/images/sku_1_month.png"
+  },
+  {
+    "title": "year without ads",
+    "description": "disabling the display of advertising banners for a period of one year!",
+    "price": "399,99 грн.",
+    "image": "assets/images/sku_1_year.png"
+  }
+]

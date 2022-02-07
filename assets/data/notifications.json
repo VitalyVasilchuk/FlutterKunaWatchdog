@@ -1,0 +1,212 @@
+[
+  {
+    "timestamp": 1640696713801,
+    "title": "BCH/UAH: 12 305",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696613806,
+    "title": "BNB/UAH: 14 827",
+    "message": "the lower price limit has been reached"
+  },
+  {
+    "timestamp": 1640696513806,
+    "title": "BTC/UAH: 1 385 887",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696413807,
+    "title": "DAI/UAH: 27.10",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696313807,
+    "title": "DASH/UAH: 4 104",
+    "message": "the lower price limit has been reached"
+  },
+  {
+    "timestamp": 1640696213807,
+    "title": "DOGE/UAH: 5.150",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696113807,
+    "title": "EOS/UAH: 91.71",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640695713807,
+    "title": "ETH/UAH: 110 446",
+    "message": "the lower price limit has been reached"
+  },
+  {
+    "timestamp": 1640694713807,
+    "title": "LINK/UAH: 584.3",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640636713807,
+    "title": "LTC/UAH: 4 391",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "SHIB/UAH: 0.001006",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "TRX/UAH: 2.180",
+    "message": "the lower price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "UNI/UAH: 477.9",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "USDC/UAH: 27.02",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "USDT/UAH: 27.15",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "WAVES/UAH: 430.4",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "XEM/UAH: 3.700",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "XLM/UAH: 7.930",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "XRP/UAH: 25.13",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "ZEC/UAH: 4 517",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "ETH/BTC: 0.07921",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "BNB/RUB: 38 001",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "BTC/RUB: 3 684 089",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713807,
+    "title": "ETH/RUB: 279 000",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "USDT/RUB: 73.19",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "XRP/RUB: 66.57",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "BTC/USD: 49 338",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "USDT/USD: 1.017",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "BTC/USDC: 49 703",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "USDT/USDC: 1.003",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "BCH/USDT: 449.9",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "BTC/USDT: 50 735",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "DASH/USDT: 143.0",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "DOGE/USDT: 0.1892",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "ETH/USDT: 4 032",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "EVER/USDT: 0.2770",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "KUN/USDT: 21.05",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "LTC/USDT: 161.6",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "SHIB/USDT: 0.00003555",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "TRX/USDT: 0.08030",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "XLM/USDT: 0.2840",
+    "message": "the higher price limit has been reached"
+  },
+  {
+    "timestamp": 1640696713808,
+    "title": "XRP/USDT: 0.9192",
+    "message": "the higher price limit has been reached"
+  }
+]
