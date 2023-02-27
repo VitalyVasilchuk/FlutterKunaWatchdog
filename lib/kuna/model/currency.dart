@@ -36,14 +36,14 @@ class Currency {
   factory Currency.fromJson(Map<String, dynamic> json) => Currency(
         id: json["id"],
         code: json["code"],
-        name: json["name"],
-        hasMemo: json["has_memo"]?? false,
+        name: json["name"] ?? json["code"],
+        hasMemo: json["has_memo"] ?? false,
         icons: Icons.fromJson(json["icons"]),
-        coin: json["coin"]?? false,
+        coin: json["coin"] ?? false,
         explorerLink: json["explorer_link"] ?? '',
         sortOrder: json["sort_order"],
         precision: Precision.fromJson(json["precision"]),
-        privileged: json["privileged"]?? false,
+        privileged: json["privileged"] ?? false,
         fuel: json["fuel"] ?? false,
       );
 
