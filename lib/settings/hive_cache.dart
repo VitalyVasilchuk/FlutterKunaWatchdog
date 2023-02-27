@@ -26,27 +26,27 @@ class HiveCache extends CacheProvider {
   Set get keys => getKeys();
 
   @override
-  bool getBool(String key) {
+  bool getBool(String key, {bool? defaultValue}) {
     return _preferences.get(key);
   }
 
   @override
-  double getDouble(String key) {
+  double getDouble(String key, {double? defaultValue}) {
     return _preferences.get(key);
   }
 
   @override
-  int getInt(String key) {
+  int getInt(String key, {int? defaultValue}) {
     return _preferences.get(key);
   }
 
   @override
-  String getString(String key) {
+  String getString(String key, {String? defaultValue}) {
     return _preferences.get(key);
   }
 
   @override
-  Future<void> setObject<T>(String key, T value) {
+  Future<void> setObject<T>(String key, T? value) {
     return _preferences.put(key, value);
   }
 
@@ -74,7 +74,7 @@ class HiveCache extends CacheProvider {
   }
 
   @override
-  T getValue<T>(String key, T defaultValue) {
+  T? getValue<T>(String key, {T? defaultValue}) {
     var value = _preferences.get(key);
     if (value is T) {
       return value;
