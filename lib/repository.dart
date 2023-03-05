@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:ticker/kuna/model/currency.dart';
 import 'package:ticker/kuna/model/market.dart';
@@ -34,37 +35,43 @@ class Repository {
       final List<Rate> rates = rawData[3];
 
       for (var t in prices) {
-        Market market = markets.firstWhere((element) => element.id == t.market);
-        Currency currency = currencies.firstWhere((element) => element.code == market.baseUnit);
-        Rate rate = rates.firstWhere((element) => element.currency == market.quoteUnit);
+        try {
+          Market market = markets.firstWhere((element) => element.id == t.market);
+          Currency currency = currencies.firstWhere((element) => element.code == market.baseUnit);
+          Rate rate = rates.firstWhere((element) => element.currency == market.quoteUnit);
 
-        tickers.add(
-          Ticker(
-            askPrice: t.askPrice,
-            askPriceUsd: t.askPrice * rate.usd,
-            askVolume: t.askVolume,
-            baseUnit: market.baseUnit,
-            bidPrice: t.bidPrice,
-            bidPriceUsd: t.bidPrice * rate.usd,
-            bidVolume: t.bidVolume,
-            change24: t.change24,
-            change24Percent: t.change24Percent,
-            chartFrame: 'H1',
-            checked: false,
-            icon: currency.icons.png3X,
-            lastPrice: t.lastPrice,
-            market: market.id,
-            maxPrice24: t.maxPrice24,
-            minPrice24: t.minPrice24,
-            name: currency.name,
-            observed: false,
-            points: [5, 0, 1, 3, 2, 3, 1, 0],
-            precision: market.basePrecision,
-            quoteUnit: market.quoteUnit,
-            timestamp: DateTime.now().millisecondsSinceEpoch,
-            volume24: t.volume24,
-          ),
-        );
+          tickers.add(
+                    Ticker(
+                      askPrice: t.askPrice,
+                      askPriceUsd: t.askPrice * rate.usd,
+                      askVolume: t.askVolume,
+                      baseUnit: market.baseUnit,
+                      bidPrice: t.bidPrice,
+                      bidPriceUsd: t.bidPrice * rate.usd,
+                      bidVolume: t.bidVolume,
+                      change24: t.change24,
+                      change24Percent: t.change24Percent,
+                      chartFrame: 'H1',
+                      checked: false,
+                      icon: currency.icons.png3X,
+                      lastPrice: t.lastPrice,
+                      market: market.id,
+                      maxPrice24: t.maxPrice24,
+                      minPrice24: t.minPrice24,
+                      name: currency.name,
+                      observed: false,
+                      points: [5, 0, 1, 3, 2, 3, 1, 0],
+                      precision: market.basePrecision,
+                      quoteUnit: market.quoteUnit,
+                      timestamp: DateTime.now().millisecondsSinceEpoch,
+                      volume24: t.volume24,
+                    ),
+                  );
+        } catch (e) {
+          if (kDebugMode) {
+            print('${t.market}: $e');
+          }
+        }
       }
     });
 
@@ -74,7 +81,7 @@ class Repository {
   }
 
   static Future getHistoryMarket(String symbol) async {
-    final int to = (DateTime.now().millisecondsSinceEpoch/1000).ceil();
+    final int to = (DateTime.now().millisecondsSinceEpoch / 1000).ceil();
     final int from = to - 24 * 60 * 60;
     return KunaProvider().getHistory(symbol, '60', from, to);
   }
